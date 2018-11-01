@@ -8,5 +8,5 @@ document.addEventListener("DOMContentLoaded", (e) => {
 });
 
 function fillInMovieData() {
-  let title = title.innerText
+  movies['Titanic'].title
 }
