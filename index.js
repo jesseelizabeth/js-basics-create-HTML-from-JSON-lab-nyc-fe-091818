@@ -28,7 +28,7 @@ function fillInMovieData() {
   const descriptionDiv = document.querySelector('#description')
   descriptionDiv.innerText = description
   
-  let audienceScore = movies['Titanic'].description
-  const descriptionDiv = document.querySelector('#description')
-  descriptionDiv.innerText = description
+  let audienceScore = movies['Titanic'].audienceScore
+  const audienceScoreDiv = document.querySelector('#audienceScore')
+  audienceScoreDiv.innerText = audienceScore
 }
