@@ -50,4 +50,6 @@ function fillInMovieData() {
     li.innerText = userReview.username + ': ' + userReview.content
     const div = document.querySelector('#reviews')
     div.appendChild(li)
+  }
 }
+
