@@ -5,10 +5,11 @@ document.addEventListener("DOMContentLoaded", (e) => {
   const terminatorButton = document.querySelector('#Terminator-2')
   
   titanicButton.addEventListener('click', fillInMovieData)
+  terminatorButton.addEventListener('click', fillInMovieData)
 });
 
 function fillInMovieData() {
-  const currentMovie = movies['Titanic']
+  const currentMovie = movies[button]
   
   const title = currentMovie.title
   const titleDiv = document.querySelector('#title')
