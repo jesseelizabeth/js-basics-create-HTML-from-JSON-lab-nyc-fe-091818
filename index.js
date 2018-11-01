@@ -41,6 +41,7 @@ function fillInMovieData() {
   for (castMember of currentMovie.cast) {
     const li = document.createElement('li')
     li.innerText = castMember.role + ': ' + castMember.actor
-    return
+    const div = document.querySelector('#cast')
+    div.appendChild(li)
   }
 }
