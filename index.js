@@ -19,4 +19,9 @@ function fillInMovieData() {
   let genre = movies['Titanic'].genre 
   const genreDiv = document.querySelector('#genre')
   genreDiv.innerText = genre
+  
+  let filmRating = movies['Titanic'].filmRating 
+  const filmRatingDiv = document.querySelector('#filmRating')
+  filmRatingDiv.innerText = filmRating
+  
 }
