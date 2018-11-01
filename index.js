@@ -39,6 +39,7 @@ function fillInMovieData() {
   audienceScoreDiv.innerText = audienceScore
   
   for (castMember of currentMovie.cast) {
-    castMember.innerText
+    const li = document.createElement('li')
+    li = castMember
   }
 }
