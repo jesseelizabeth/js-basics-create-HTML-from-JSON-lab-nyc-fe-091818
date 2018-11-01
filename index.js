@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
 });
 
 function fillInMovieData() {
-  const currentMovie = movies['button']
+  const currentMovie = movies['Titanic']
   
   let title = currentMovie.title
   const titleDiv = document.querySelector('#title')
@@ -25,6 +25,10 @@ function fillInMovieData() {
   let filmRating = currentMovie.filmRating 
   const filmRatingDiv = document.querySelector('#filmRating')
   filmRatingDiv.innerText = filmRating
+  
+  const poster = currentMovie.poster
+  const posterDiv = document.querySelector('#poster')
+  posterImg.src = poster
   
   let description = currentMovie.description
   const descriptionDiv = document.querySelector('#description')
