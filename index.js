@@ -42,7 +42,7 @@ function fillInMovieData(movie) {
   // clear out old cast members
   const castDiv = document.querySelector('#cast')
   for (let oldCastMember of castDiv.childNodes) {
-    oldCastMember.remove
+    oldCastMember.remove()
   }
   
   for (castMember of currentMovie.cast) {
