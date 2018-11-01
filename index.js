@@ -10,35 +10,35 @@ document.addEventListener("DOMContentLoaded", (e) => {
 function fillInMovieData() {
   const currentMovie = movies['Titanic']
   
-  let title = movies['Titanic'].title
+  let title = currentMovie.title
   const titleDiv = document.querySelector('#title')
   titleDiv.innerText = title
   
-  let director = movies['Titanic'].director 
+  let director = currentMovie.director 
   const directorDiv = document.querySelector('#director')
   directorDiv.innerText = director
   
-  let genre = movies['Titanic'].genre 
+  let genre = currentMovie.genre 
   const genreDiv = document.querySelector('#genre')
   genreDiv.innerText = genre
   
-  let filmRating = movies['Titanic'].filmRating 
+  let filmRating = currentMovie.filmRating 
   const filmRatingDiv = document.querySelector('#filmRating')
   filmRatingDiv.innerText = filmRating
   
-  let description = movies['Titanic'].description
+  let description = currentMovie.description
   const descriptionDiv = document.querySelector('#description')
   descriptionDiv.innerText = description
   
-  let audienceScore = movies['Titanic'].audienceScore
+  let audienceScore = currentMovie.audienceScore
   const audienceScoreDiv = document.querySelector('#audienceScore')
   audienceScoreDiv.innerText = audienceScore
   
-  let cast = movies['Titanic'].cast
+  let cast = currentMovie.cast
   const castDiv = document.querySelector('#cast')
   castDiv.innerText = cast
   
-  let reviews = movies['Titanic'].reviews
+  let reviews = currentMovie.reviews
   const reviewsDiv = document.querySelector('#reviews')
   reviewsDiv.innerText = reviews
 }
