@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
 });
 
 function fillInMovieData() {
+  const currentMovie = movies['Titanic']
+  
   let title = movies['Titanic'].title
   const titleDiv = document.querySelector('#title')
   titleDiv.innerText = title
@@ -31,4 +33,12 @@ function fillInMovieData() {
   let audienceScore = movies['Titanic'].audienceScore
   const audienceScoreDiv = document.querySelector('#audienceScore')
   audienceScoreDiv.innerText = audienceScore
+  
+  let cast = movies['Titanic'].cast
+  const castDiv = document.querySelector('#cast')
+  castDiv.innerText = cast
+  
+  let reviews = movies['Titanic'].reviews
+  const reviewsDiv = document.querySelector('#reviews')
+  reviewsDiv.innerText = reviews
 }
