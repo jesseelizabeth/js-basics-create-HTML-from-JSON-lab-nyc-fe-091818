@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
   terminatorButton.addEventListener('click', fillInMovieData)
 });
 
-function fillInMovieData() {
-  const currentMovie = movies['button']
+function fillInMovieData(movie) {
+  const currentMovie = movies[movie]
   
   const title = currentMovie.title
   const titleDiv = document.querySelector('#title')
