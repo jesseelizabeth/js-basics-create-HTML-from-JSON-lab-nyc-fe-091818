@@ -55,7 +55,7 @@ function fillInMovieData(movie) {
   // clear out old reviews
   const reviewsDiv = document.querySelector('#reviews')
   while (reviewsDiv.hasChildNodes()) {
-    castDiv.removeChild(reviewsDiv.firstChild)
+    reviewsDiv.removeChild(reviewsDiv.firstChild)
   }
   
   for (userReview of currentMovie.reviews) {
